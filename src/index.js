@@ -1,8 +1,12 @@
+import {homepage} from './homepage.js';
+import {contacts} from './contact.js';
 import './style.css';
-import {picture, h1} from './homepage.js';
-import {gohan, h2} from './contact.js';
 
-const content = document.querySelector('#content');
 
-content.appendChild(picture);
-content.appendChild(h1);
+homepage();
+
+const homeButton = document.querySelector('.home');
+homeButton.addEventListener('click', homepage);
+
+const contactButton = document.querySelector('.contacts');
+contactButton.addEventListener('click', contacts);

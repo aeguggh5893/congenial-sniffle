@@ -1,8 +1,17 @@
-const gohan = document.createElement('img');
-gohan.setAttribute("src", "https://www.pngfind.com/pngs/m/136-1364705_son-gohan-png-adult-gohan-purple-gi-transparent.png");
-gohan.setAttribute("alt", "adult-gohan");
+export function contacts() {
+    const content = document.querySelector('#content');
+    content.replaceChildren();
 
-const h2 = document.createElement("h2");
-h2.textContent = "Contact Adult Gohan";
 
-export {gohan, h2};
+    const gohan = document.createElement('img');
+    gohan.src = "https://www.pngfind.com/pngs/m/136-1364705_son-gohan-png-adult-gohan-purple-gi-transparent.png";
+    gohan.alt = "adult-gohan";
+
+    content.appendChild(gohan);
+
+    const h2 = document.createElement("h2");
+    h2.textContent = "Contact Adult Gohan";
+
+    content.appendChild(h2);
+}
+
