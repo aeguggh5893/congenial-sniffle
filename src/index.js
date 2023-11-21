@@ -3,6 +3,9 @@ import {contacts} from './contact.js';
 import './style.css';
 
 
+
+
+
 homepage();
 
 const homeButton = document.querySelector('.home');

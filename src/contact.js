@@ -4,7 +4,7 @@ export function contacts() {
 
 
     const gohan = document.createElement('img');
-    gohan.src = "https://www.pngfind.com/pngs/m/136-1364705_son-gohan-png-adult-gohan-purple-gi-transparent.png";
+    gohan.src = "../src/assets/choso.webp";
     gohan.alt = "adult-gohan";
 
     content.appendChild(gohan);
