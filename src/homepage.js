@@ -3,6 +3,21 @@ export function homepage() {
 const content = document.querySelector('#content');
 content.replaceChildren();
 
+const homePage = document.querySelector('.home');
+homePage.classList.add('current-page');
+
+const moveSetPage = document.querySelector('.moveset');
+moveSetPage.classList.add('current-page')
+
+const contactsPage = document.querySelector('.contacts');
+contactsPage.classList.add('current-page');
+
+if (homePage.className.includes('current-page')) {
+    moveSetPage.classList.toggle('current-page');
+    contactsPage.classList.toggle('current-page');
+}
+
+
 const div = document.createElement('div');
 div.classList.add('container');
 content.appendChild(div);

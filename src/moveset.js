@@ -3,6 +3,21 @@ export function moveset() {
     const content = document.querySelector('#content');
     content.replaceChildren();
 
+    const homePage = document.querySelector('.home');
+    homePage.classList.add('current-page');
+
+    const moveSetPage = document.querySelector('.moveset');
+    moveSetPage.classList.add('current-page')
+
+    const contactsPage = document.querySelector('.contacts');
+    contactsPage.classList.add('current-page');
+
+    if (moveSetPage.className.includes('current-page')) {
+        contactsPage.classList.toggle('current-page');
+        homePage.classList.toggle('current-page');
+    }
+
+
     const container3 = document.createElement('div');
     container3.classList.add('container3');
     content.appendChild(container3);

@@ -2,6 +2,20 @@ export function contacts() {
     const content = document.querySelector('#content');
     content.replaceChildren();
 
+    const homePage = document.querySelector('.home');
+    homePage.classList.add('current-page');
+
+    const moveSetPage = document.querySelector('.moveset');
+    moveSetPage.classList.add('current-page')
+
+    const contactsPage = document.querySelector('.contacts');
+    contactsPage.classList.add('current-page');
+
+    if (contactsPage.className.includes('current-page')) {
+        moveSetPage.classList.toggle('current-page');
+        homePage.classList.toggle('current-page');
+    }
+
     makeBrother('kechizu', 'eso', 'yuji');
 
 }

@@ -84,5 +84,12 @@ ul {
     text-align: center;
     margin-top: 70px;
     margin-bottom: 0;
+}
 
+.current-page {
+    background-color: rgb(19, 224, 156);
+}
+
+.inactive {
+    background-color: white;
 }
