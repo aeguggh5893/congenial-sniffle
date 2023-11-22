@@ -42,20 +42,6 @@ export function moveset() {
     techTitle.textContent = 'Techniques';
     container3.appendChild(techTitle);
 
-    // const techDiv = document.createElement('div');
-    // techDiv.classList.add('techniques-section');
-    // container3.appendChild(techDiv);
-
-    // const img = document.createElement('img');
-    // img.src = '../src/assets/choso-pb.webp';
-    // img.alt = 'Choso using piercing blood';
-    // img.classList.add('tech-image');
-    // techDiv.appendChild(img);
-
-    // const tech1 = document.createElement('p');
-    // tech1.innerText = 'Choso using piercing blood utilizing convergence';
-    // techDiv.appendChild(tech1);
-
     let pictures = ['choso-pb', 'choso-supernova', 'choso-se'];
 
     const techDiv = document.createElement('div');

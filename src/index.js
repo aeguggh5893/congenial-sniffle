@@ -3,10 +3,6 @@ import {contacts} from './contact.js';
 import {moveset} from './moveset.js';
 import './style.css';
 
-
-
-
-
 homepage();
 
 const homeButton = document.querySelector('.home');
