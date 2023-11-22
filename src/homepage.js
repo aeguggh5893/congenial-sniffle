@@ -26,7 +26,7 @@ div.appendChild(description);
 
 const stats = document.createElement('p');
 stats.classList.add('bannerDesc');
-stats.innerHTML = '<p> Species: Death Painting Wombs <br> Age: 150+ <br> Gender: Male <br> Height: 181cm (5-11) <br> Hair Color: Black <br> Eye Color: Purplr</p>';
+stats.innerHTML = '<p> Species: Death Painting Wombs <br> Age: 150+ <br> Gender: Male <br> Height: 181cm (5-11) <br> Hair Color: Black <br> Eye Color: Purple</p>';
 div.appendChild(stats);
 }
 

@@ -32,3 +32,25 @@ body {
     height: 100vh;
 }
 
+.brother {
+    width: 200px;
+    height: 200px;
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: repeat(2, 250px);
+    grid-template-rows: repeat(3, 250px);
+    justify-items: center;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
